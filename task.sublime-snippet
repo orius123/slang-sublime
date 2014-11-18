@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+${1:task name}:
+	do:
+		${2:operation/subflow ref}:
+	# publish:
+	# navigate:
+]]></content>
+	<tabTrigger>task</tabTrigger>
+	<scope>source.yaml</scope>
+	<description>slang task skeleton</description>
+</snippet>

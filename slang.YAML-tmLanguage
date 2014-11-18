@@ -1,0 +1,27 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Slang
+scopeName: source.yaml.slang
+fileTypes: [sl]
+uuid: 9932e0ea-4ef0-4e2e-859b-2bebbd7991dd
+
+patterns:
+# - include: source.yaml
+
+# - name: entity.name.function.slang
+#   match: '\s\sworkflow:|\s\saction:'
+
+- name: entity.name.section.slang
+  match: '^flow:|^operations:'
+
+# - name: storage.type.slang
+#   match: '\s\sinputs:|\s\soutputs:|\s\spublish:|\s\sresults:|\s\sdo:'
+
+# - name: keyword.control.slang
+#   match: '\s\snavigate:'
+
+# - name: constant.language.slang
+#   match: '\s\sSUCCESS:|\s\sFAILURE:'
+
+- include: source.yaml
+...

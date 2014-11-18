@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+flow:
+	name: ${1:flow name - {$TM_FILENAME}}
+	# inputs:
+	workflow:
+	# outputs:
+	# results:
+]]></content>
+	<tabTrigger>flow</tabTrigger>
+	<scope>source.yaml</scope>
+	<description>slang flow skeleton</description>
+</snippet>

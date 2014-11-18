@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+${1:operation name}:
+	# inputs:
+	action:
+	# outputs:
+	results:
+		SUCCESS: true
+]]></content>
+	<tabTrigger>operation</tabTrigger>
+	<scope>source.yaml</scope>
+	<description>slang operation skeleton</description>
+</snippet>
