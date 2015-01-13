@@ -5,7 +5,7 @@ ${1:operation name}:
 	action:
 	# outputs:
 	results:
-		SUCCESS: 1==1
+		- SUCCESS: 1==1
 ]]></content>
 	<tabTrigger>operation</tabTrigger>
 	<scope>source.yaml</scope>
