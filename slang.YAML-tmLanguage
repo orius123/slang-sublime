@@ -12,7 +12,7 @@ patterns:
 #   match: '\s\sworkflow:|\s\saction:'
 
 - name: entity.name.section.slang
-  match: '^flow:|^operations:'
+  match: '^flow:|^operation:'
 
 # - name: storage.type.slang
 #   match: '\s\sinputs:|\s\soutputs:|\s\spublish:|\s\sresults:|\s\sdo:'

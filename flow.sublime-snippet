@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 flow:
-	name: ${1:flow name - {$TM_FILENAME}}
+	name: ${TM_FILENAME/\.[^.]*$//}
 	# inputs:
 	workflow:
 	# outputs:
