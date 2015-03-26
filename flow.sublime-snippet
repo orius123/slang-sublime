@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
 flow:
-	name: ${TM_FILENAME/\.[^.]*$//}
-	# inputs:
-	workflow:
-	# outputs:
-	# results:
+  name: ${TM_FILENAME/\.[^.]*$//}
+  # inputs:
+  workflow:
+  # outputs:
+  # results:
 ]]></content>
 	<tabTrigger>flow</tabTrigger>
 	<scope>source.yaml</scope>
-	<description>slang flow skeleton</description>
+	<description>CloudSlang flow skeleton</description>
 </snippet>

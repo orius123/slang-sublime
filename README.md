@@ -1,4 +1,4 @@
-slang-sublime
+cloudslang-sublime
 =============
 
-sublime plugin for slang language
+sublime plugin for CloudSlang language

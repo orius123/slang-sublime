@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+namespace: ${1:file namespace}
+# imports:	
+]]></content>
+	<tabTrigger>cloudslang</tabTrigger>
+	<scope>source.yaml</scope>
+	<description>CloudSlang file skeleton</description>
+</snippet>
