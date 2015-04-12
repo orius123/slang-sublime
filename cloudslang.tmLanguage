@@ -7,14 +7,14 @@
 		<string>sl</string>
 	</array>
 	<key>name</key>
-	<string>Slang</string>
+	<string>CloudSlang</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>match</key>
 			<string>^flow:|^operation:</string>
 			<key>name</key>
-			<string>entity.name.section.slang</string>
+			<string>entity.name.section.cloudslang</string>
 		</dict>
 		<dict>
 			<key>include</key>
@@ -22,7 +22,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.yaml.slang</string>
+	<string>source.yaml.cloudslang</string>
 	<key>uuid</key>
 	<string>9932e0ea-4ef0-4e2e-859b-2bebbd7991dd</string>
 </dict>

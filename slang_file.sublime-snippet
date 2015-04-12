@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-namespace: ${1:file namespace}
-# imports:	
-]]></content>
-	<tabTrigger>slang</tabTrigger>
-	<scope>source.yaml</scope>
-	<description>slang file skeleton</description>
-</snippet>
